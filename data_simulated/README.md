@@ -1,6 +1,7 @@
-This repository contains simulated datasets used in the article
-"Gentrius"
+#This repository contains simulated datasets used in the article
+###"Gentrius"
 
+---
 One dataset consists of a presence-absence species per locus matrix and a binary unrooted tree.
 For each matrix five different random trees were generated using IQ-TREE 2 (reference). All five trees were pair-wise check
 
