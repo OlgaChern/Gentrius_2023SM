@@ -1,5 +1,5 @@
-#This repository contains simulated datasets used in the article
-###"Gentrius"
+# This repository contains simulated datasets used in the article
+### "Gentrius"
 
 ---
 One dataset consists of a presence-absence species per locus matrix and a binary unrooted tree.
