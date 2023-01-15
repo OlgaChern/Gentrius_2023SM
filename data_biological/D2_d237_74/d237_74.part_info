@@ -1,0 +1,152 @@
+#nexus
+begin sets;
+  charset alas_final = 1-514;
+  charset apob_exon_26_final = 515-1477;
+  charset apob_exon_29_1_final = 1478-2179;
+  charset apob_exon_29_2_final = 2180-2812;
+  charset app_final = 2813-3491;
+  charset atpa7_final = 3492-4166;
+  charset bndf_final = 4167-4919;
+  charset brca1_1_final = 4920-5624;
+  charset brca1_2_final = 5625-6353;
+  charset calb_final = 6354-7175;
+  charset chst12_final = 7176-7880;
+  charset clu_final = 7881-9302;
+  charset cma1_final = 9303-9594;
+  charset cxcr7_final = 9595-10329;
+  charset cyp1a1_final = 10330-10605;
+  charset dgkg_final = 10606-11356;
+  charset epm2b_final = 11357-11745;
+  charset fes_final = 11746-12174;
+  charset gata3_final = 12175-12626;
+  charset ghr_final = 12627-13559;
+  charset gnaz_final = 13560-14181;
+  charset gnb1_final = 14182-14879;
+  charset hk1_final = 14880-15257;
+  charset mtatp6_final = 15258-15938;
+  charset mtatp8_final = 15939-16145;
+  charset mtco1_final = 16146-17696;
+  charset mtco2_final = 17697-18380;
+  charset mtco3_final = 18381-19184;
+  charset mtcyb_final = 19185-20328;
+  charset mtnd1_final = 20329-21285;
+  charset mtnd2_final = 21286-22335;
+  charset mtnd3_final = 22336-22692;
+  charset mtnd4_final = 22693-24070;
+  charset mtnd4l_final = 24071-24367;
+  charset mtnd5_final = 24368-26203;
+  charset mtnd6_final = 26204-26737;
+  charset mtrnr1_final = 26738-27767;
+  charset mtrnr2_final = 27768-29432;
+  charset plp1_final = 29433-30345;
+  charset pnoc_final = 30346-30652;
+  charset rag1_Teil_2_final = 30653-31747;
+  charset rag1_Teil_1_final = 31748-32488;
+  charset rag2_final = 32489-32970;
+  charset rbp3_final = 32971-34263;
+  charset rsa2_final = 34264-34842;
+  charset sil_final = 34843-35217;
+  charset sry_final = 35218-35931;
+  charset tbg_final = 35932-36373;
+  charset tcp1_final = 36374-36612;
+  charset teme20_final = 36613-37227;
+  charset trna_ala_final = 37228-37297;
+  charset trna_arg_final = 37298-37371;
+  charset trna_asn_final = 37372-37444;
+  charset trna_asp_final = 37445-37514;
+  charset trna_cys_final = 37515-37583;
+  charset trna_gln_final = 37584-37658;
+  charset trna_glu_final = 37659-37729;
+  charset trna_gly_final = 37730-37802;
+  charset trna_his_final = 37803-37875;
+  charset trna_ile_final = 37876-37946;
+  charset trna_lys_final = 37947-38019;
+  charset trna_met_final = 38020-38089;
+  charset trna_phe_final = 38090-38163;
+  charset trna_pro_final = 38164-38234;
+  charset trna_thr_final = 38235-38315;
+  charset trna_trp_final = 38316-38387;
+  charset trna_tyr_final = 38388-38458;
+  charset trna_val_final = 38459-38540;
+  charset ttr_final = 38541-39426;
+  charset vangl2_final = 39427-39972;
+  charset vtn_final = 39973-40196;
+  charset vwf_final = 40197-41472;
+  charset zfx_final = 41473-42653;
+  charset zfy_final = 42654-43834;
+  charpartition mymodels =
+    K2P+R2: alas_final,
+    K3Pu+F+I+G4: apob_exon_26_final,
+    HKY+F+R2: apob_exon_29_1_final,
+    TPM2+F+I+G4: apob_exon_29_2_final,
+    TVM+F+R3: app_final,
+    TPM3+F+R3: atpa7_final,
+    HKY+F+I+G4: bndf_final,
+    TPM3+F+G4: brca1_1_final,
+    TPM3+F+R3: brca1_2_final,
+    TPM3+F+R2: calb_final,
+    TPM3+F+G4: chst12_final,
+    K3P+R3: clu_final,
+    K2P+R3: cma1_final,
+    TPM2+F+G4: cxcr7_final,
+    K2P+R3: cyp1a1_final,
+    K2P+R2: dgkg_final,
+    TN+F+G4: epm2b_final,
+    HKY+F+I+G4: fes_final,
+    TVMe+I+G4: gata3_final,
+    TVMe+R3: ghr_final,
+    K3Pu+F+I+G4: gnaz_final,
+    TIM2+F+R3: gnb1_final,
+    HKY+F+R3: hk1_final,
+    HKY+F+I+G4: mtatp6_final,
+    HKY+F+I+G4: mtatp8_final,
+    GTR+F+I+G4: mtco1_final,
+    TIM2+F+I+G4: mtco2_final,
+    TIM2+F+I+G4: mtco3_final,
+    TIM2+F+R10: mtcyb_final,
+    GTR+F+I+G4: mtnd1_final,
+    K3Pu+F+I+G4: mtnd2_final,
+    TPM3+F+I+G4: mtnd3_final,
+    TPM2+F+I+G4: mtnd4_final,
+    TVM+F+I+G4: mtnd4l_final,
+    TIM2+F+I+G4: mtnd5_final,
+    TPM3+F+I+G4: mtnd6_final,
+    TIM2+F+I+G4: mtrnr1_final,
+    TIM2+F+I+G4: mtrnr2_final,
+    K3P+R3: plp1_final,
+    K2P+R3: pnoc_final,
+    TIM3e+I+G4: rag1_Teil_2_final,
+    TIM3e+I+G4: rag1_Teil_1_final,
+    K3P+R3: rag2_final,
+    TVM+F+R4: rbp3_final,
+    HKY+F+R2: rsa2_final,
+    K2P+R2: sil_final,
+    TVM+F+G4: sry_final,
+    K2P+G4: tbg_final,
+    TIM2e+I+G4: tcp1_final,
+    TIM3e+R3: teme20_final,
+    HKY+F+I+G4: trna_ala_final,
+    HKY+F+I+G4: trna_arg_final,
+    TPM3+F+G4: trna_asn_final,
+    HKY+F+G4: trna_asp_final,
+    K2P+I+G4: trna_cys_final,
+    TN+F+G4: trna_gln_final,
+    TN+F+G4: trna_glu_final,
+    HKY+F+G4: trna_gly_final,
+    K3Pu+F+G4: trna_his_final,
+    HKY+F+G4: trna_ile_final,
+    TIM2+F+G4: trna_lys_final,
+    K2P+R2: trna_met_final,
+    TIM2+F+G4: trna_phe_final,
+    GTR+F+G4: trna_pro_final,
+    TPM2+F+G4: trna_thr_final,
+    TN+F+G4: trna_trp_final,
+    HKY+F+I+G4: trna_tyr_final,
+    TPM2+F+G4: trna_val_final,
+    TVM+F+R2: ttr_final,
+    HKY+F+I+G4: vangl2_final,
+    K2P+G4: vtn_final,
+    TN+F+R3: vwf_final,
+    HKY+F+I+G4: zfx_final,
+    TPM3+F+R2: zfy_final;
+end;
