@@ -1,0 +1,7 @@
+Original alignment contains 270 species, however three species have no sequence data in the alignemnt.
+IQ-TREE automatically removes them from analysis.
+
+List of species with empty sequence data in d270_20.ORIGINAL.phy:
+1. Cryptobatrachus_sp
+2. Hemiphractus_fasciatus_ZSM
+3. Hemiphractus_johnsoni
