@@ -1,0 +1,162 @@
+#nexus
+begin sets;
+  charset cftr = 1-791;
+  charset sry = 792-1258;
+  charset COII = 1259-1951;
+  charset npas3 = 1952-2556;
+  charset lrpprc_171 = 2557-3317;
+  charset EpsilonGlobin = 3318-5275;
+  charset zfx = 5276-6086;
+  charset pola1 = 6087-6690;
+  charset IRBPexon = 6691-7977;
+  charset rag2 = 7978-8667;
+  charset rag1 = 8668-9738;
+  charset FGA = 9739-10448;
+  charset Prion = 10449-11285;
+  charset NRAMP = 11286-11817;
+  charset IRBPintron3 = 11818-13473;
+  charset adora3 = 13474-13889;
+  charset bcor = 13890-14661;
+  charset fam123b = 14662-15391;
+  charset mapkap1 = 15392-16046;
+  charset atxn7 = 16047-16565;
+  charset MCR1 = 16566-17522;
+  charset 16S = 17523-18886;
+  charset COI = 18887-20440;
+  charset zic3 = 20441-20987;
+  charset ABO = 20988-21543;
+  charset 12S = 21544-22353;
+  charset zfy = 22354-23206;
+  charset aff22 = 23207-23785;
+  charset VWFintron = 23786-24649;
+  charset VWFexon = 24650-25890;
+  charset crem = 25891-26318;
+  charset ND3 = 26319-26663;
+  charset abca1 = 26664-27223;
+  charset app = 27224-27895;
+  charset COB = 27896-29032;
+  charset dctn2 = 29033-29637;
+  charset brca2 = 29638-30889;
+  charset negr1 = 30890-31429;
+  charset ttr = 31430-32307;
+  charset rab6ip1 = 32308-33024;
+  charset ush2a = 33025-33629;
+  charset sgms1 = 33630-34225;
+  charset COIII = 34226-35008;
+  charset fes = 35009-35478;
+  charset bdnf = 35479-36039;
+  charset uty = 36040-36410;
+  charset tyr = 36411-36885;
+  charset smcx = 36886-37214;
+  charset ND4 = 37215-38594;
+  charset ND2 = 38595-39638;
+  charset lrpprc_169 = 39639-40430;
+  charset ND4L = 40431-40718;
+  charset dmrt1 = 40719-41255;
+  charset cnr1 = 41256-42251;
+  charset GHRmeredith = 42252-42892;
+  charset ghr = 42893-43538;
+  charset TTN = 43539-45221;
+  charset kcnma1 = 45222-45834;
+  charset sim1 = 45835-46479;
+  charset CXCR5 = 46480-47538;
+  charset edg1 = 47539-48505;
+  charset npas3_2 = 48506-49155;
+  charset foxp1 = 49156-49718;
+  charset bche = 49719-50702;
+  charset fbn1 = 50703-51421;
+  charset mbd2 = 51422-51978;
+  charset pnoc = 51979-52291;
+  charset IRBPintron1 = 52292-54139;
+  charset smcy = 54140-55077;
+  charset axin1 = 55078-56025;
+  charset dach1 = 56026-56652;
+  charset tex2 = 56653-56808;
+  charset rpgrip1 = 56809-57494;
+  charset CXCR4 = 57495-58538;
+  charset luc71 = 58539-59232;
+  charset plcb4 = 59233-59570;
+  charset chrna1 = 59571-59951;
+  charset aff2 = 59952-60451;
+  charset erc2 = 60452-61199;
+  charpartition mymodels =
+    TIM3+F+G4: cftr,
+    TIM2+F+I+G4: sry,
+    TIM2+F+I+G4: COII,
+    TVM+F+I+G4: npas3,
+    TPM2+F+G4: lrpprc_171,
+    TIM+F+R3: EpsilonGlobin,
+    TPM3+F+R3: zfx,
+    TPM3+F+I+G4: pola1,
+    HKY+F+R3: IRBPexon,
+    HKY+F+R3: rag2,
+    TIM3e+R4: rag1,
+    TPM3+F+R2: FGA,
+    HKY+F+R2: Prion,
+    HKY+F+R2: NRAMP,
+    K2P+R2: IRBPintron3,
+    TVMe+I+G4: adora3,
+    TPM2+F+R3: bcor,
+    TIMe+I+G4: fam123b,
+    TVM+F+R2: mapkap1,
+    K2P+I+G4: atxn7,
+    TN+F+R3: MCR1,
+    TIM2+F+R7: 16S,
+    TIM2+F+I+G4: COI,
+    HKY+F+R2: zic3,
+    TPM3+F+R3: ABO,
+    TIM2+F+R8: 12S,
+    TVM+F+I+G4: zfy,
+    TPM2+F+I+G4: aff22,
+    TIM3e+I+G4: VWFintron,
+    TN+F+I+G4: VWFexon,
+    K3P+I+G4: crem,
+    TPM2+F+I+G4: ND3,
+    GTR+F+G4: abca1,
+    TVM+F+R3: app,
+    TIM2+F+R10: COB,
+    K2P+I+G4: dctn2,
+    GTR+F+I+G4: brca2,
+    TVM+F+I+G4: negr1,
+    TVM+F+G4: ttr,
+    K2P+R3: rab6ip1,
+    HKY+F+R2: ush2a,
+    HKY+F+I+G4: sgms1,
+    TIM2+F+I+G4: COIII,
+    K3Pu+F+R4: fes,
+    K2P+I+G4: bdnf,
+    TNe+I+G4: uty,
+    K2P+I+G4: tyr,
+    TPM3+F+I+G4: smcx,
+    K3Pu+F+R10: ND4,
+    TIM2+F+I+G4: ND2,
+    TVM+F+R3: lrpprc_169,
+    TPM2+F+R8: ND4L,
+    TVM+F+I+G4: dmrt1,
+    HKY+F+I+G4: cnr1,
+    K2P+G4: GHRmeredith,
+    TIM3+F+R3: ghr,
+    TIM3+F+I+G4: TTN,
+    GTR+F+I+G4: kcnma1,
+    K2P+I+G4: sim1,
+    K2P+R2: CXCR5,
+    TVM+F+I+G4: edg1,
+    GTR+F+R3: npas3_2,
+    TVM+F+R3: foxp1,
+    TIM3+F+R3: bche,
+    TVM+F+R3: fbn1,
+    TPM3+F+I+G4: mbd2,
+    TIM+F+I+G4: pnoc,
+    HKY+F+I+G4: IRBPintron1,
+    HKY+F+I+G4: smcy,
+    GTR+F+I+G4: axin1,
+    K3Pu+F+I+G4: dach1,
+    TIM2e+G4: tex2,
+    K2P+I+G4: rpgrip1,
+    HKY+F+I+G4: CXCR4,
+    TVM+F+R3: luc71,
+    K3P+R3: plcb4,
+    TIM2+F+G4: chrna1,
+    TPM3+F+R3: aff2,
+    TVM+F+R3: erc2;
+end;
