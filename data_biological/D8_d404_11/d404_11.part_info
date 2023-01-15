@@ -1,0 +1,26 @@
+#nexus
+begin sets;
+  charset PARTITION_0 = 1-2161;
+  charset PARTITION_1 = 2162-2963;
+  charset PARTITION_2 = 2964-4609;
+  charset PARTITION_3 = 4610-5197;
+  charset PARTITION_4 = 5198-6049;
+  charset PARTITION_5 = 6050-6877;
+  charset PARTITION_6 = 6878-8314;
+  charset PARTITION_7 = 8315-9532;
+  charset PARTITION_8 = 9533-10552;
+  charset PARTITION_9 = 10553-11577;
+  charset PARTITION_10 = 11578-13158;
+  charpartition mymodels =
+    HKY+F+R4: PARTITION_0,
+    TIM2+F+R3: PARTITION_1,
+    TVM+F+R5: PARTITION_2,
+    TIM+F+R2: PARTITION_3,
+    TIM3+F+I+G4: PARTITION_4,
+    TVM+F+R4: PARTITION_5,
+    TN+F+R8: PARTITION_6,
+    GTR+F+R6: PARTITION_7,
+    TN+F+I+G4: PARTITION_8,
+    GTR+F+I+G4: PARTITION_9,
+    GTR+F+R6: PARTITION_10;
+end;
