@@ -1,0 +1,58 @@
+#nexus
+begin sets;
+  charset pri_12s = 1-914;
+  charset pri_16s = 915-2199;
+  charset pri_co1 = 2200-3741;
+  charset pri_co2 = 3742-4425;
+  charset pri_co3 = 4426-5209;
+  charset pri_cyb = 5210-6349;
+  charset pri_nd3 = 6350-6695;
+  charset pri_nd4 = 6696-8072;
+  charset pri_nd4l = 8073-8369;
+  charset pri_nd5 = 8370-10185;
+  charset pri_a2ab = 10186-11415;
+  charset pri_adora3 = 11416-11736;
+  charset pri_bglob = 11737-15679;
+  charset pri_ccr5 = 15680-16744;
+  charset pri_epsgb = 16745-18748;
+  charset pri_fut1 = 18749-19852;
+  charset pri_g6pdi45 = 19853-20934;
+  charset pri_gam12 = 20935-22787;
+  charset pri_irbp = 22788-24026;
+  charset pri_irbpi1 = 24027-25874;
+  charset pri_mic12 = 25875-27374;
+  charset pri_prp1 = 27375-27814;
+  charset pri_rag1 = 27815-29254;
+  charset pri_sry = 29255-30083;
+  charset pri_tspy = 30084-32437;
+  charset pri_vwfi11 = 32438-33413;
+  charset pri_xk = 33414-42666;
+  charpartition mymodels =
+    TIM2+F+R6: pri_12s,
+    TIM2+F+R7: pri_16s,
+    TIM2+F+I+G4: pri_co1,
+    TN+F+R9: pri_co2,
+    TIM2+F+I+G4: pri_co3,
+    TIM2+F+R10: pri_cyb,
+    HKY+F+I+G4: pri_nd3,
+    TIM2+F+I+G4: pri_nd4,
+    K3Pu+F+I+G4: pri_nd4l,
+    TN+F+I+G4: pri_nd5,
+    K3Pu+F+R3: pri_a2ab,
+    K2P+I+G4: pri_adora3,
+    TVM+F+R3: pri_bglob,
+    TIM3e+R4: pri_ccr5,
+    K3Pu+F+R4: pri_epsgb,
+    TN+F+I+G4: pri_fut1,
+    HKY+F+I+G4: pri_g6pdi45,
+    TIM2+F+I+G4: pri_gam12,
+    TPM2+F+I+G4: pri_irbp,
+    HKY+F+I+G4: pri_irbpi1,
+    TVM+F+R3: pri_mic12,
+    HKY+F+R3: pri_prp1,
+    TIM3e+I+G4: pri_rag1,
+    TPM3+F+I+G4: pri_sry,
+    SYM+R3: pri_tspy,
+    TPM2+F+R4: pri_vwfi11,
+    TVM+F+R2: pri_xk;
+end;
