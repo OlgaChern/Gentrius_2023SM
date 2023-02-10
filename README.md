@@ -4,7 +4,7 @@ by Olga Chernomor, Christiane Elgert, and Arndt von Haeseler
 
 This repository contains Data and Code used in the manuscript: bioRxiv, doi: https://doi.org/10.1101/2023.01.19.524678
 
-### Gentrius - Generating trees from incomplete unrooted subtrees
+### Gentrius - GENerating Trees from Incomplete Unrooted Subtrees
 The Gentrius algorithm is implemented in IQ-TREE 2 (C++) and is available since version 2.2.
 
 https://github.com/iqtree/iqtree2
