@@ -24,7 +24,7 @@ http://www.iqtree.org). All required libraries are distributed with the IQ-TREE 
 
 4. Instructions for use
 * How to run the software on data from the manuscript:
-* Reproduction instructions: The scripts used to analyse datasets from the manuscript are available at  
+* Reproduction instructions: The scripts used to analyse datasets from the manuscript are available at [reproduce bio script](https://github.com/OlgaChern/Gentrius_2023SM/blob/main/data_biological/script-run-gentrius.sh)
 
 
 ### Matrix Simulator - Generating 0/1 matrices
