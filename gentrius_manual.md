@@ -8,7 +8,7 @@ There are several ways and inputs one can use to start the analysis. Here are th
 2.  __iqtree2 -gentrius <file 1> -s <file 3> -p <file 4>__
 3.  __iqtree2 -gentrius <file 5>__
 
-    - File 1: a phylogenetic tree to be analysed
+    - File 1: a phylogenetic tree to be analysed in Newick format (e.g. (1,2,(3,(4,5)));)
 
     - File 2: a species per locus presence-absence matrix. First line is a number of species and the number of loci. Other lines contain species name followed by 0's and 1's (with space separator) to indicate presence/absence of gene sequences for corresponding loci. 
 
@@ -21,9 +21,9 @@ There are several ways and inputs one can use to start the analysis. Here are th
             species_4 1 1 0  
             species_5 1 1 1  
 
-    - File 3: an alignment file with concatenated loci
-    - File 4: a partition info file for the alignment in file 3
-    - File 5: contains a set of subtrees to be analysed
+    - File 3: an alignment file with concatenated loci (see IQ-TREE 2 manual for accepted formats http://www.iqtree.org/doc/Tutorial#input-data)
+    - File 4: a partition info file for the alignment in file 3 (see IQ-TREE 2 manual for accepted formats http://www.iqtree.org/doc/Advanced-Tutorial)
+    - File 5: contains a set of subtrees to be analysed in Newick format
 
 ### Stopping Rules
 -----
