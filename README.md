@@ -19,8 +19,8 @@ http://www.iqtree.org). All required libraries are distributed with the IQ-TREE 
 
 3. Manual
 * Instructions to run on data: for the manual specific to analysis with Gentrius see [manual](https://github.com/OlgaChern/Gentrius_2023SM/blob/main/gentrius_manual.md)
-* Expected output: [description](https://github.com/OlgaChern/Gentrius_2023SM/blob/main/gentrius_manual.md)
-* Expected run time for demo on a "normal" desktop computer: analysis with Gentrius depending on dataset takes from milliseconds to days; default stopping threshold on CPU time used is 7 days
+* Demo dataset: available in [example]()
+* Expected run time for demo on a "normal" desktop computer: 7s
 
 4. Instructions for use
 * How to run the software on data from the manuscript: the script to run Gentrius on datasets without consensus tree is available in [run Gentrius](https://github.com/OlgaChern/Gentrius_2023SM/blob/main/auxiliary_scripts/script-run-main-stand-analysis-PER_DATASET.sh) and to run analysis with consensus tree [run consensus](https://github.com/OlgaChern/Gentrius_2023SM/blob/main/auxiliary_scripts/script-run-print_cons-stand-analysis-PER_DATASET.sh)
