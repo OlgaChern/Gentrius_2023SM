@@ -17,13 +17,13 @@ http://www.iqtree.org). All required libraries are distributed with the IQ-TREE 
 * Instructions: Extensive instructions are available at http://www.iqtree.org/doc/Quickstart
 * Typical install time on a "normal" desktop computer: installation from the source code takes about 15 mins
 
-3. Demo
+3. Manual
 * Instructions to run on data: for the manual specific to analysis with Gentrius see [manual](https://github.com/OlgaChern/Gentrius_2023SM/blob/main/gentrius_manual.md)
-* Expected output:
+* Expected output: [description](https://github.com/OlgaChern/Gentrius_2023SM/blob/main/gentrius_manual.md)
 * Expected run time for demo on a "normal" desktop computer: analysis with Gentrius depending on dataset takes from milliseconds to days; default stopping threshold on CPU time used is 7 days
 
 4. Instructions for use
-* How to run the software on data from the manuscript: the script to run Gentrius on datasets without consensus tree is available in [run Gentrius](https://github.com/OlgaChern/Gentrius_2023SM/blob/main/auxiliary_scripts/script-run-main-stand-analysis-PER_DATASET.sh) and to run analysis with consensus tree [run consensus]()
+* How to run the software on data from the manuscript: the script to run Gentrius on datasets without consensus tree is available in [run Gentrius](https://github.com/OlgaChern/Gentrius_2023SM/blob/main/auxiliary_scripts/script-run-main-stand-analysis-PER_DATASET.sh) and to run analysis with consensus tree [run consensus](https://github.com/OlgaChern/Gentrius_2023SM/blob/main/auxiliary_scripts/script-run-print_cons-stand-analysis-PER_DATASET.sh)
 * Reproduction instructions: the scripts used to analyse datasets from the manuscript are available at [reproduce bio script](https://github.com/OlgaChern/Gentrius_2023SM/blob/main/data_biological/script-run-gentrius.sh)
 
 
