@@ -17,7 +17,7 @@ http://www.iqtree.org). All required libraries are distributed with the IQ-TREE 
 * Instructions: Extensive instructions are available at http://www.iqtree.org/doc/Quickstart
 * Typical install time on a "normal" desktop computer: installation from the source code takes about 15 mins
 
-3. Manual
+3. Manual and Demo
 * Instructions to run on data: for the manual specific to analysis with Gentrius see [manual](https://github.com/OlgaChern/Gentrius_2023SM/blob/main/gentrius_manual.md)
 * Demo dataset: available in [example]()
 * Expected run time for demo on a "normal" desktop computer: 7s
