@@ -8,9 +8,9 @@
 `iqtree2 --gentrius tree.nwk -pr_ab_matrix matrix.txt`
 
 ### Output
-*log file: `tree.nwk.log`
+* log file: `tree.nwk.log`
 
-```bash
+```
 IQ-TREE version 2.2.0 COVID-edition for Mac OS X 64-bit built Dec 14 2021 built Dec 14 2021
 Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
 Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
