@@ -18,13 +18,13 @@ http://www.iqtree.org). All required libraries are distributed with the IQ-TREE 
 * Typical install time on a "normal" desktop computer: installation from the source code takes about 15 mins
 
 3. Demo
-* Instructions to run on data: 
+* Instructions to run on data: for the manual specific to analysis with Gentrius see [manual](https://github.com/OlgaChern/Gentrius_2023SM/blob/main/gentrius_manual.md)
 * Expected output:
 * Expected run time for demo on a "normal" desktop computer: analysis with Gentrius depending on dataset takes from milliseconds to days; default stopping threshold on CPU time used is 7 days
 
 4. Instructions for use
-* How to run the software on data from the manuscript:
-* Reproduction instructions: The scripts used to analyse datasets from the manuscript are available at [reproduce bio script](https://github.com/OlgaChern/Gentrius_2023SM/blob/main/data_biological/script-run-gentrius.sh)
+* How to run the software on data from the manuscript: the script is available in [auxiliary scripts]()
+* Reproduction instructions: the scripts used to analyse datasets from the manuscript are available at [reproduce bio script](https://github.com/OlgaChern/Gentrius_2023SM/blob/main/data_biological/script-run-gentrius.sh)
 
 
 ### Matrix Simulator - Generating 0/1 matrices
