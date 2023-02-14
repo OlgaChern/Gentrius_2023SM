@@ -8,8 +8,7 @@ This repository contains Data and Code used in the manuscript: bioRxiv: https://
 The Gentrius algorithm is implemented in IQ-TREE 2 (C++) and is available since version 2.2. The source code is available from https://github.com/iqtree/iqtree2.
 
 1. System requirements
-* All software dependencies and operating systems (including version numbers): IQ-TREE 2 is available for Windows/macOS/Linux (pre-compiled binaries are available from 
-http://www.iqtree.org). All required libraries are distributed with the IQ-TREE 2.
+* All software dependencies and operating systems (including version numbers): IQ-TREE 2 is available for Windows/macOS/Linux (pre-compiled binaries are available from http://www.iqtree.org). All required libraries are distributed with IQ-TREE 2 code.
 * Versions the software has been tested on: Gentrius was tested in IQ-TREE v.2.2
 * Any required non-standard hardware: none
 
