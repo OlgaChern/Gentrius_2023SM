@@ -8,8 +8,7 @@ This repository contains Data and Code used in the manuscript: bioRxiv: https://
 The Gentrius algorithm is implemented in IQ-TREE 2 (C++) and is available since version 2.2. The source code is available from https://github.com/iqtree/iqtree2.
 
 1. System requirements
-* All software dependencies and operating systems (including version numbers): IQ-TREE 2 is available for Windows/macOS/Linux (pre-compiled binaries are available from 
-http://www.iqtree.org). All required libraries are distributed with the IQ-TREE 2.
+* All software dependencies and operating systems (including version numbers): IQ-TREE 2 is available for Windows/macOS/Linux (pre-compiled binaries are available from http://www.iqtree.org). All required libraries are distributed with IQ-TREE 2 code.
 * Versions the software has been tested on: Gentrius was tested in IQ-TREE v.2.2
 * Any required non-standard hardware: none
 
@@ -19,8 +18,8 @@ http://www.iqtree.org). All required libraries are distributed with the IQ-TREE 
 
 3. Manual and Demo
 * Instructions to run on data: for the manual specific to analysis with Gentrius see [manual](https://github.com/OlgaChern/Gentrius_2023SM/blob/main/gentrius_manual.md)
-* Demo dataset: available in [example]()
-* Expected run time for demo on a "normal" desktop computer: 7s
+* Demo dataset: available in [example](https://github.com/OlgaChern/Gentrius_2023SM/tree/main/example)
+* Expected run time for demo on a "normal" desktop computer: 38s
 
 4. Instructions for use
 * How to run the software on data from the manuscript: the script to run Gentrius on datasets without consensus tree is available in [run Gentrius](https://github.com/OlgaChern/Gentrius_2023SM/blob/main/auxiliary_scripts/script-run-main-stand-analysis-PER_DATASET.sh) and to run analysis with consensus tree [run consensus](https://github.com/OlgaChern/Gentrius_2023SM/blob/main/auxiliary_scripts/script-run-print_cons-stand-analysis-PER_DATASET.sh)
